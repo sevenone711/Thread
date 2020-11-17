@@ -32,6 +32,7 @@ public class Main {
         float a2[] = new float[h];
         System.arraycopy(arr, 0, a1, 0, h);
         System.arraycopy(arr,h , a2, 0, h);
+//        Без ожидани
 //        new Thread(new Runnable() {
 //            @Override
 //            public void run () {
@@ -48,6 +49,7 @@ public class Main {
 //                }
 //            }
 //        }).start();
+//        С ожиданием
         var t1 = new Thread(new Runnable() {
             @Override
             public void run () {
